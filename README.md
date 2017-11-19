@@ -65,10 +65,17 @@ Then you can use this Agent object to call [jenssegers/agent](https://github.com
 ```
 
 ### Using in PHP Code
-It is just using [jenssegers/agent](https://github.com/jenssegers/agent) directly. Please refer to its documentation.
-You don't need to install it since it is installed as the dependency of this plugin.
+Add `use Agent;`, and call methods from `Agent` facade. 
 
-Basically, the usage looks like this.
+```php
+use Agent;
+...
+
+if (Agent::isFireFox()) {
+...
+```
+
+If you don't want to use facade, you can use it like this.
 ```php
 use Jenssegers\Agent\Agent;
 ...
@@ -78,3 +85,6 @@ if ($agent->isFireFox()) {
 ...
 
 ```
+
+It is just using [jenssegers/agent](https://github.com/jenssegers/agent) directly. Please refer to its documentation.
+You don't need to install it since it is installed as the dependency of this plugin.

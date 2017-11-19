@@ -65,10 +65,17 @@ description = "Default layout"
 ```
 
 ### PHPからの利用
-[jenssegers/agent](https://github.com/jenssegers/agent) を直接使うだけなので、そちらの README を参考にしてください。
-依存関係としてすでにインストールされているので別途インストールする必要はありません。
+`use Agent;` 入れて `Agent` ファサードからメソッドを呼び出せます。
 
-基本的にはこのようになります。
+```php
+use Agent;
+...
+
+if (Agent::isFireFox()) {
+...
+```
+
+ちなみに、ファサードを使わない場合は、基本的にはこのようになります。
 ```php
 use Jenssegers\Agent\Agent;
 ...
@@ -78,3 +85,6 @@ if ($agent->isFireFox()) {
 ...
 
 ```
+
+[jenssegers/agent](https://github.com/jenssegers/agent) を直接使うだけなので、そちらの README を参考にしてください。
+依存関係としてすでにインストールされているので別途インストールする必要はありません。

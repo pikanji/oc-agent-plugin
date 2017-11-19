@@ -17,5 +17,8 @@ desktop.ini
 .project
 .settings
 
+# PhpStorm
+.idea
+
 # IDE Helper
 _ide_helper*.php
