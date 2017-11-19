@@ -1,5 +1,7 @@
 # OctoberCMS Agent Plugin
 
+[日本語版はこちら](./README_ja.md)
+
 [OctoberCMS](http://octobercms.com/) plugin to detect user's browser, OS, and device.
 This is available not only from PHP but also from Twig templates.
 
@@ -55,7 +57,6 @@ description = "Default layout"
 
 ```
 
-そして、テンプレートから下記のように利用できます。
 Then you can use this Agent object to call [jenssegers/agent](https://github.com/jenssegers/agent) APIs.
 ```
 ...
