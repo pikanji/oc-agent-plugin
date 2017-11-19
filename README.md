@@ -27,7 +27,7 @@ Add below to the composer.json of your project. (`repositories` section is requi
     "repositories": [
         ...
         {
-            "url": "git@github.com:pikanji/oc-agent-plugin.git",
+            "url": "https://github.com/pikanji/agent-plugin.git",
             "type": "git"
         }
 }

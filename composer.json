@@ -1,5 +1,5 @@
 {
-    "name": "pikanji/oc-agent-plugin",
+    "name": "pikanji/agent-plugin",
     "type": "october-plugin",
     "description": "Detect user's browser, OS, and device from UserAgent. A wrapper plugin of jenssegers/agent.",
     "license": "MIT",

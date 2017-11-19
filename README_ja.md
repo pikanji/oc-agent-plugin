@@ -25,7 +25,7 @@ jenssegers さんと更にその[ベース](https://github.com/serbanghita/Mobil
     "repositories": [
         ...
         {
-            "url": "git@github.com:pikanji/oc-agent-plugin.git",
+            "url": "https://github.com/pikanji/agent-plugin.git",
             "type": "git"
         }
 }
