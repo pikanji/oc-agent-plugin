@@ -1,0 +1,21 @@
+/vendor
+composer.phar
+
+# This should not be generated under plugin dir.
+composer.lock
+
+# OS or editor misc files
+*~
+*.bak
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Eclipse setting files
+.buildpath
+.project
+.settings
+
+# IDE Helper
+_ide_helper*.php

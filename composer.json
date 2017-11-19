@@ -1,0 +1,16 @@
+{
+    "name": "pikanji/oc-agent-plugin",
+    "type": "october-plugin",
+    "description": "Detect user's browser, OS, and device from UserAgent. A wrapper plugin of jenssegers/agent.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kanji Furuhashi",
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "composer/installers": "~1.0",
+        "jenssegers/agent": "^2.6"
+    }
+}
