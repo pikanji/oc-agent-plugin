@@ -14,21 +14,14 @@ jenssegers さんと更にその[ベース](https://github.com/serbanghita/Mobil
 ## 使い方
 ### インストール
 #### composerの場合
-プロジェクトのcomposer.jsonに下記を追加してください。（まだ、packagist に登録していないので `repositories` が必要になってしまいます・・・。）
+プロジェクトのcomposer.jsonに下記を追加してください。
 ```
 {
     "require": [
         ...
-        "pikanji/oc-agent-plugin": "dev-master"
+        "pikanji/agent-plugin": "dev-master"
     ],
 ...
-    "repositories": [
-        ...
-        {
-            "url": "https://github.com/pikanji/agent-plugin.git",
-            "type": "git"
-        }
-}
 ```
 
 プロジェクトルートから下記を実行します。

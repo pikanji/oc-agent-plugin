@@ -16,21 +16,13 @@ Please refer [jenssegers/agent](https://github.com/jenssegers/agent) for availab
 ## Usage
 ### Installation
 #### With Composer
-Add below to the composer.json of your project. (`repositories` section is required because I have not registered it to [packagist](https://packagist.com))
+Add below to the composer.json of your project.
 ```
 {
     "require": [
         ...
-        "pikanji/oc-agent-plugin": "dev-master"
+        "pikanji/agent-plugin": "dev-master"
     ],
-...
-    "repositories": [
-        ...
-        {
-            "url": "https://github.com/pikanji/agent-plugin.git",
-            "type": "git"
-        }
-}
 ```
 
 Execute below at the root of your project.
