@@ -24,7 +24,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Cocci\Utility\Components\Agent' => 'Agent',
+            'Pikanji\Agent\Components\Agent' => 'Agent',
         ];
     }
 }
