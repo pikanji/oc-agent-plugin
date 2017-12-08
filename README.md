@@ -15,6 +15,8 @@ Please refer [jenssegers/agent](https://github.com/jenssegers/agent) for availab
 
 ## Usage
 ### Installation
+You can install this plugin either via composer or from the backend UI.
+
 #### With Composer
 Add below to the composer.json of your project.
 ```
@@ -31,7 +33,10 @@ composer update
 ```
 
 #### With OctoberCMS UI
-This does not support OctoberCMS's plugin installation UI, because this is not registered there yet.
+* Login to OctoberCMS backend
+* Go to Settings > Update & Plugins.
+* Click "Install plugins" button.
+* Search for "Agent", and select it to start installation.
 
 
 ### Using in Twig Templates

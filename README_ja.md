@@ -13,6 +13,8 @@ jenssegers さんと更にその[ベース](https://github.com/serbanghita/Mobil
 
 ## 使い方
 ### インストール
+comopserと管理画面（バックエンドUI）のどちらからでもインストールが可能です。
+
 #### composerの場合
 プロジェクトのcomposer.jsonに下記を追加してください。
 ```
@@ -30,7 +32,11 @@ composer update
 ```
 
 #### UIからの場合
-まだ、OctoberCMSのプラグインとして登録していないので、できません・・・。
+* 管理画面にログインします。
+* Settings > Updates & Plugins と開きます。
+* "Install plugins"ボタンをクリックします。
+* 検索ボックスに"Agent"と入力すると候補にこのプラグインが表示されます。
+* 候補からAgentを選択するとインストールが始まります。
 
 
 ### Twigテンプレートからの利用
