@@ -16,19 +16,9 @@ jenssegers さんと更にその[ベース](https://github.com/serbanghita/Mobil
 comopserと管理画面（バックエンドUI）のどちらからでもインストールが可能です。
 
 #### composerの場合
-プロジェクトのcomposer.jsonに下記を追加してください。
-```
-{
-    "require": [
-        ...
-        "pikanji/agent-plugin": "dev-master"
-    ],
-...
-```
-
 プロジェクトルートから下記を実行します。
 ```
-composer update
+composer require pikanji/agent-plugin
 ```
 
 #### UIからの場合

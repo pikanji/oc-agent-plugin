@@ -18,18 +18,9 @@ Please refer [jenssegers/agent](https://github.com/jenssegers/agent) for availab
 You can install this plugin either via composer or from the backend UI.
 
 #### With Composer
-Add below to the composer.json of your project.
-```
-{
-    "require": [
-        ...
-        "pikanji/agent-plugin": "dev-master"
-    ],
-```
-
 Execute below at the root of your project.
 ```
-composer update
+composer require pikanji/agent-plugin
 ```
 
 #### With OctoberCMS UI
